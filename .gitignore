@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 进度文件（不要提交，包含 Cookie）
+crawl_progress.json
+
+# 爬取产生的 CSV 文件（不要提交到 GitHub）
+*_baidu_index.csv
+
+# Cookie 配置（包含敏感信息，不要提交）
+config_secret.py
+secrets.py
+
+# Log 文件
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
